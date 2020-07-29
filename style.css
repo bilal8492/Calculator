@@ -70,3 +70,23 @@ h1 {
 .btn > .btn-red {
   background-color: rgba(226, 30, 65, 1);
 }
+@media (max-width: 750px){
+  #calculator{
+    width: 350px;
+  }
+
+  .btn > button {
+    width: 51.5px ;
+  }
+  .result {
+    width: 80%;
+  }
+  .big-btn{
+    width: 36.5%;
+    
+  }
+  #main{
+    margin: 65px auto 0 auto;
+    width: 406px;
+  }
+}
