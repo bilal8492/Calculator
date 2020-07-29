@@ -20,7 +20,10 @@ var output = document.getElementsByClassName("output")[0];
 
 var equation = "";
 
-aC.addEventListener("click", function () {
+
+
+
+aC.addEventListener("click",  function () {
   equation = "";
   output.innerHTML = "0";
 });
@@ -109,11 +112,7 @@ cE.addEventListener("click", function () {
   updateOutput();
 });
 isequal.addEventListener("click", function () {
-  var numbers = equation.split("+");
-  var result = 0;
-  numbers.forEach((num) => {
-    result += parseFloat(num);
-  });
+  var result = eval(equation);
   equation = result.toString();
   updateOutput();
 });
