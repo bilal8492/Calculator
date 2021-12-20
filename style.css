@@ -69,6 +69,7 @@ h1 {
 }
 .btn > .btn-red {
   background-color: rgba(226, 30, 65, 1);
+  color: #fff;
 }
 @media (max-width: 750px){
   #calculator{
